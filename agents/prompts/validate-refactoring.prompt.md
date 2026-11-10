@@ -7,7 +7,7 @@ Absolute Functional Parity (Zero Regression):
 
 Compare the before vs. after behavior for EVERY critical public and private function/method you modified.
 
-Generate a mapping matrix listing the 100 pre-existing processes/flows (or those that exist). For each, indicate: [OK] if the output/side effect is identical, or [DEVIATION] if it changed.
+Generate a mapping matrix listing ALL pre-existing processes/flows affected. For each, indicate: [OK] if the output/side effect is identical, or [DEVIATION] if it changed.
 
 Complexity Preservation (Anti-simplification for mediocrity):
 
@@ -25,7 +25,7 @@ Run the pre-existing tests. It's not acceptable for them to pass if you modified
 
 New Feature Added:
 
-Demonstrate that the new feature was inserted without reducing the existing 100 complexity. The total system complexity (sum of the CC of all modules) must be >= the previous CC plus the CC of the new feature.
+Demonstrate that the new feature was inserted without reducing the existing complexity. The total system complexity (sum of the CC of all modules) must be >= the previous CC plus the CC of the new feature.
 
 REQUIRED EVIDENCE TO SUBMIT:
 

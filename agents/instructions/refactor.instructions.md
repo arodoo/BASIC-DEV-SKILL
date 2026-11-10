@@ -1,5 +1,15 @@
-You are about to refactor code that is perfectly working FINE. Your mission is to satisfy global.instructions.md. You must CAN'T improvise, changue logic, 'improve' the code with your stupid and elocuent ideas. KEEP the logic intact, just split, this menas, ORGANIZE, COMPARTMENTALIZE. After you finish you must check with git diff you haven't changue a single character (exceptobviously imports and LOGICAL other exceptions, use THE BRAIN, THIS IS IMPORTANT)
-It doesn't matter is not your fault. The files are larger than permited or the folders have more files than permitted, you MUST fix all the violations in the files/folders that are being touched/involved in the current feature/logic/scope. MAX FILES PER FOLDER IS IMPORTANT.
+You are about to refactor code that is working perfectly FINE. Your mission
+is to satisfy @global.instructions.md. You CAN'T improvise, change logic or
+"improve" the code with your own eloquent ideas. KEEP the logic intact, just
+split: ORGANIZE, COMPARTMENTALIZE.
 
-You are about to refactor code that is perfectly working FINE. Your mission is to satisfy global.instructions.md. You must CAN'T improvise, changue logic, 'improve' the code with your stupid and elocuent ideas. KEEP the logic intact, just split, this menas, ORGANIZE, COMPARTMENTALIZE. After you finish you must check with git diff you haven't changue a single character (exceptobviously imports and LOGICAL other exceptions, use THE BRAIN, THIS IS IMPORTANT)
-It doesn't matter is not your fault. The files are larger than permited or the folders have more files than permitted, you MUST fix all the violations in the files/folders that are being touched/involved in the current feature/logic/scope. MAX FILES PER FOLDER IS IMPORTANT.
+After you finish, check with `git diff` that you haven't changed a single
+character of logic (except, obviously, imports and other LOGICAL exceptions;
+use THE BRAIN, THIS IS IMPORTANT).
+
+It doesn't matter if it's not your fault. If files are larger than permitted
+or folders have more files than permitted, you MUST fix all the violations in
+the files/folders touched/involved in the current feature/logic/scope.
+MAX FILES PER FOLDER IS IMPORTANT.
+
+When done, validate your work following @validate-refactoring.prompt.md
