@@ -38,7 +38,7 @@ architecture to build maintainable, secure and production-grade applications.
 All code files must have a header with the following information:
 - File location
 - File function (at least 100 chars)
-- 'All Rights Reserved <Your Name>'
+- 'All Rights Reserved Arodi Emmanuel'
 
 ## 6 FILES PER FOLDER RULE (HARD LIMIT)
 - MAX: 6 files/folder.
