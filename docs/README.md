@@ -17,5 +17,16 @@ agrupado por la intención del lector, no por tema.
 
 1. **Un modo por archivo.** Si un doc mezcla explanation + reference,
    partirlo. Cada archivo debe poder leerse sin leer los otros.
-2. **Nombre estable, ruta explícita.** El nombre del archivo describe el tema.
-
+2. **Nombre estable, ruta explícita.** El nombre del archivo describe el tema
+   en `kebab-case` sin prefijos redundantes (ej: `auth-flow.md`, no
+   `explanation-auth.md`).
+3. **Sin duplicación.** La referencia técnica (APIs, esquemas, tipos) vive en
+   `reference/`, nunca duplicada dentro de guías prácticas o explicaciones.
+4. **Orientación al lector:**
+   - En `how-to/`: pasos numerados, reproducibles y orientados a un objetivo
+     específico.
+   - En `explanation/`: contexto conceptual, alternativas y decisiones de
+     diseño (ADRs).
+   - En `reference/`: información fáctica, exhaustiva y neutral.
+   - En `tutorials/`: experiencia guiada de aprendizaje paso a paso para
+     principiantes.
